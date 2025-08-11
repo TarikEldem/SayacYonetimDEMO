@@ -54,7 +54,7 @@ export default {
   methods: {
     // Listeleme
     async get() {
-      const res = await axios.get("https://localhost:7129/api/sayac");
+      const res = await axios.get("http://localhost:5050/api/sayac");
       this.sayaclar = res.data;
     },
     // Tarih formatı
