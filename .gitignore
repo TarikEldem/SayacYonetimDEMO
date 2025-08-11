@@ -1,0 +1,47 @@
+# ----- .NET / C# -----
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VSCode & Visual Studio ayar dosyaları
+.vscode/
+.vs/
+
+# Build çıktıları
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Yayın paketleri
+*.nupkg
+*.snupkg
+
+# Rider IDE
+.idea/
+
+# ----- Vue / Node.js -----
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Çevre değişkenleri
+.env
+.env.local
+.env.*.local
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# ----- Genel -----
+*.log
+*.tmp
